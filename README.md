@@ -6,6 +6,10 @@ You need to compile/re-compile Texmaker to apply this icon pack. If you're on Ar
 ```bash
 makepkg -s
 ```
+Optionally, you can use the Dark variant to match the Breeze-Dark style. If you want to try it on Arch Linux, just edit the line 26 of the PKGBUILD:
+```bash
+cp -f $srcdir/$pkgname-master/images/breeze-dark/* "$srcdir/$_pkgname-$pkgver/images/"
+```
 
 ## Screenshots
 ![Main Window](screenshots/main.png)

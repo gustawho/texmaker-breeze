@@ -16,7 +16,10 @@ cp -f $srcdir/$pkgname-master/images/breeze-dark/* "$srcdir/$_pkgname-$pkgver/im
 ```
 (Yes, just add '-dark' after 'breeze')
 
+Additionally, if you don't want to compile the packages yourself, you can download the TAR.XZ packages from [HERE](http://opendesktop.org/content/show.php?content=171234).
+
 ## Screenshots
 ![Main Window](screenshots/main.png)
+![Dark variant](screenshots/dark.png)
 ![Configuration Window](screenshots/config.png)
 ![About](screenshots/about.png)

@@ -20,7 +20,7 @@ Additionally, if you don't want to compile the packages yourself, you can downlo
 
 ## Disclaimer
 I took as many original icons from "Breeze" as I could. Those who are not part of the official set, including the Texmaker icon, were made using Inkscape®.
-Therefore, all the icons that I didn't create, are licensed under the LGPL.
+Therefore, all the icons that I didn't create are licensed under the LGPL.
 
 ## Screenshots
 ![Main Window](screenshots/main.png)

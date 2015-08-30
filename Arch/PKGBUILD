@@ -14,13 +14,17 @@ optdepends=('ghostscript: LaTeX to HTML conversion command'
 install="$pkgname.install"
 conflicts=('texmaker')
 source=("http://www.xm1math.net/$_pkgname/$_pkgname-$pkgver.tar.bz2"
-        "https://github.com/gustawho/$pkgname/archive/master.zip")
-md5sums=('d6af622aa9ab1ec29c799842f2b76dc7')
-         'SKIP')
+        "https://github.com/gustawho/$pkgname/archive/master.zip"
+        qtdatastream.patch)
+sha512sums=('a165b7757f2170d42f3d48d644cb351efd4d308b1a0601105952c3253084ae4a3d0bbfb7915207ff60d0ba7036283c6c8305a901d7ac8aab4e79c1bb78f68ddd'
+            'SKIP'
+            '4e8f4877bca1abff9bd81b5ea25c9a91bd296a2d62683cde0cb9c647b233e4e78db29af2aa62b271eec628f4374927624ed3ecbaef4f4d1b9e2debd280dc8b30')
+
 
 prepare() {
-  cp -f $srcdir/$_pkgname-master/images/breeze/* "$srcdir/$_pkgname-$pkgver/images/"
-  cp -f $srcdir/$_pkgname-master/utilities/* "$srcdir/$_pkgname-$pkgver/utilities/"
+  patch -p1 $srcdir/$_pkgname-$pkgver/singleapp/qtlocalpeer.cpp < $srcdir/qtdatastream.patch
+  cp -f $srcdir/$pkgname-master/images/breeze/* "$srcdir/$_pkgname-$pkgver/images/"
+  cp -f $srcdir/$pkgname-master/utilities/* "$srcdir/$_pkgname-$pkgver/utilities/"
 }
 
 build() {

@@ -1,7 +1,7 @@
 # texmaker-breeze
  An attempt to integrate Texmaker with Breeze, the default visual style in KDE Plasma 5.x
 
-![Main Window](screenshot/main.png)
+![Main Window](screenshots/main.png)
 ![Configuration Window](screenshots/config.png)
 ![About](screenshots/about.png)
 

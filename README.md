@@ -22,6 +22,7 @@ Additionally, if you don't want to compile the packages yourself, you can downlo
 Server = http://gustawho.x10.mx/repo/x86_64/
 ```
 Key-ID: 2C575D76
+
 x86_64 only!
 
 ## Disclaimer

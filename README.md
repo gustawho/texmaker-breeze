@@ -16,7 +16,13 @@ cp -f $srcdir/$pkgname-master/images/breeze-dark/* "$srcdir/$_pkgname-$pkgver/im
 ```
 (Yes, just add '-dark' after 'breeze')
 
-Additionally, if you don't want to compile the packages yourself, you can download the TAR.XZ packages from [HERE](http://opendesktop.org/content/show.php?content=171234).
+Additionally, if you don't want to compile the packages yourself, you can download the TAR.XZ packages from [HERE](http://opendesktop.org/content/show.php?content=171234) or install it from my repository:
+```bash
+[gustawho]
+Server = http://gustawho.x10.mx/repo/x86_64/
+```
+Key-ID: 2C575D76
+x86_64 only!
 
 ## Disclaimer
 I took as many original icons from "Breeze" as I could. Those who are not part of the official set, including the Texmaker icon, were made using Inkscape®.

@@ -69,7 +69,7 @@
       </size>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="pt">
       <layout class="QGridLayout" name="gridLayout_17">
@@ -134,7 +134,9 @@
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset theme="document-open"/>
+                  <iconset theme="document-open">
+                   <normaloff/>
+                  </iconset>
                  </property>
                  <property name="iconSize">
                   <size>
@@ -237,7 +239,9 @@
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset theme="document-open"/>
+                  <iconset theme="document-open">
+                   <normaloff/>
+                  </iconset>
                  </property>
                  <property name="iconSize">
                   <size>
@@ -331,7 +335,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
              </widget>
             </item>
@@ -348,7 +354,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
              </widget>
             </item>
@@ -358,7 +366,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -374,7 +384,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -447,7 +459,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -490,7 +504,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -559,7 +575,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -581,7 +599,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -604,7 +624,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -620,7 +642,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -636,7 +660,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
              </widget>
             </item>
@@ -646,7 +672,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -665,7 +693,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -681,7 +711,9 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset theme="document-open"/>
+               <iconset theme="document-open">
+                <normaloff/>
+               </iconset>
               </property>
               <property name="iconSize">
                <size>
@@ -763,7 +795,9 @@
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset theme="document-open"/>
+                  <iconset theme="document-open">
+                   <normaloff/>
+                  </iconset>
                  </property>
                  <property name="iconSize">
                   <size>
@@ -849,14 +883,14 @@
             <item row="1" column="2">
              <widget class="QRadioButton" name="radioButton2">
               <property name="text">
-               <string>LaTeX + View DVI</string>
+               <string>LaTeX + &amp;View DVI</string>
               </property>
              </widget>
             </item>
             <item row="2" column="0">
              <widget class="QRadioButton" name="radioButton5">
               <property name="text">
-               <string>LaTeX + dvips + ps2pdf + View PDF</string>
+               <string>LaTeX + dvips + ps&amp;2pdf + View PDF</string>
               </property>
              </widget>
             </item>
@@ -898,14 +932,14 @@
             <item row="6" column="0">
              <widget class="QRadioButton" name="radioButton9">
               <property name="text">
-               <string>LatexMk + View PDF</string>
+               <string>Latex&amp;Mk + View PDF</string>
               </property>
              </widget>
             </item>
             <item row="7" column="0">
              <widget class="QRadioButton" name="radioButton10">
               <property name="text">
-               <string>XeLaTeX + View PDF</string>
+               <string>&amp;XeLaTeX + View PDF</string>
               </property>
              </widget>
             </item>
@@ -950,8 +984,7 @@
                <string>wizard</string>
               </property>
               <property name="icon">
-               <iconset resource="texmaker.qrc">
-                <normaloff>:/images/help.png</normaloff>:/images/help.png</iconset>
+               <iconset theme="tools-wizard"/>
               </property>
              </widget>
             </item>
@@ -989,8 +1022,7 @@
                <string>wizard</string>
               </property>
               <property name="icon">
-               <iconset resource="texmaker.qrc">
-                <normaloff>:/images/help.png</normaloff>:/images/help.png</iconset>
+               <iconset theme="tools-wizard"/>
               </property>
              </widget>
             </item>
@@ -1306,8 +1338,7 @@
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="texmaker.qrc">
-                <normaloff>:/images/fileopen.png</normaloff>:/images/fileopen.png</iconset>
+               <iconset theme="document-open"/>
               </property>
              </widget>
             </item>
@@ -1505,9 +1536,7 @@
   <tabstop>lineEditAsyQuick</tabstop>
   <tabstop>pushButtonAsyWizard</tabstop>
  </tabstops>
- <resources>
-  <include location="texmaker.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

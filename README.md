@@ -22,6 +22,7 @@ If you're on Arch Linux and you don't want to build the package yourself, just i
 Server = http://gustawho.x10.mx/repo/x86_64/
 ```
 Key-ID: 2C575D76
+
 x86_64 only!
 
 There you can also grab the PKGBUILD and edit it for your needs.

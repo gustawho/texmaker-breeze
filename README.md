@@ -29,3 +29,4 @@ There you can also grab the PKGBUILD and edit it for your needs.
 ## Screenshots
 ![Main Window](http://gustawho.x10.mx/files/light.png)
 ![Dark variant](http://gustawho.x10.mx/files/dark.png)
+
